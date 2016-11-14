@@ -1,59 +1,58 @@
 %YAML 1.1
-\%TAG !u! tag:unity3d.com,2011:
-\--- !u!1001 &100100000
-\Prefab:
-\  m_ObjectHideFlags: 1
-\  serializedVersion: 2
-\  m_Modification:
-\    m_TransformParent: {fileID: 0}
-\    m_Modifications: []
-\    m_RemovedComponents: []
-\  m_ParentPrefab: {fileID: 0}
-\  m_RootGameObject: {fileID: 1000014065364550}
-\  m_IsPrefabParent: 1
-\--- !u!1 &1000014065364550
-\GameObject:
-\  m_ObjectHideFlags: 0
-\  m_PrefabParentObject: {fileID: 0}
-\  m_PrefabInternal: {fileID: 100100000}
-\  serializedVersion: 4
-\  m_Component:
-\  - 4: {fileID: 4000011193306640}
-\  - 114: {fileID: 114000011219077178}
-\  m_Layer: 0
-\  m_Name: GameController
-\  m_TagString: Untagged
-\  m_Icon: {fileID: 0}
-\  m_NavMeshLayer: 0
-\  m_StaticEditorFlags: 0
-\  m_IsActive: 1
-\--- !u!4 &4000011193306640
-\Transform:
-\  m_ObjectHideFlags: 1
-\  m_PrefabParentObject: {fileID: 0}
-\  m_PrefabInternal: {fileID: 100100000}
-\  m_GameObject: {fileID: 1000014065364550}
-\  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-\  m_LocalPosition: {x: -0.32630083, y: -1.192604, z: 0}
-\  m_LocalScale: {x: 1, y: 1, z: 1}
-\  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-\  m_Children: []
-\  m_Father: {fileID: 0}
-\  m_RootOrder: 0
-\--- !u!114 &114000011219077178
-\MonoBehaviour:
-\  m_ObjectHideFlags: 1
-\  m_PrefabParentObject: {fileID: 0}
-\  m_PrefabInternal: {fileID: 100100000}
-\  m_GameObject: {fileID: 1000014065364550}
-\  m_Enabled: 1
-\  m_EditorHideFlags: 0
-\  m_Script: {fileID: 11500000, guid: a957548244694fc4c9ffbf7073b04feb, type: 3}
-\  m_Name: 
-\  m_EditorClassIdentifier: 
-\  timerAutoLoadNextLevel: 0
-\  inputField: {fileID: 0}
-\  animatorNameField: {fileID: 0}
-\  stormFX: {fileID: 1000011531087744, guid: 64a2b35762f13684f9a428e1ec5e7f69, type: 2}
-\  gameIsStopped: 0
-\
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000014065364550}
+  m_IsPrefabParent: 1
+--- !u!1 &1000014065364550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011193306640}
+  - 114: {fileID: 114000011219077178}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011193306640
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014065364550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.32630083, y: -1.192604, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011219077178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014065364550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a957548244694fc4c9ffbf7073b04feb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerAutoLoadNextLevel: 0
+  inputField: {fileID: 0}
+  animatorNameField: {fileID: 0}
+  stormFX: {fileID: 1000011531087744, guid: 64a2b35762f13684f9a428e1ec5e7f69, type: 2}
+  gameIsStopped: 0
