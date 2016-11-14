@@ -1,13 +1,12 @@
 fileFormatVersion: 2
-\guid: 7611ab2637badda4ca7ca53dbf5ac22a
-\timeCreated: 1449808329
-\licenseType: Free
-\MonoImporter:
-\  serializedVersion: 2
-\  defaultReferences: []
-\  executionOrder: 0
-\  icon: {instanceID: 0}
-\  userData: 
-\  assetBundleName: 
-\  assetBundleVariant: 
-\
+guid: 7611ab2637badda4ca7ca53dbf5ac22a
+timeCreated: 1449808329
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
